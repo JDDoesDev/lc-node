@@ -1,0 +1,7 @@
+version: "2.1"
+services:
+  cli:
+    labels:
+      - io.docksal.virtual-port=4001
+    ports:
+      - '4001:4001'
